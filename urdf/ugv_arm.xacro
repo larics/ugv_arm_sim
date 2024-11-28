@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="ugv_arm">
+
+
+  <xacro:include filename="$(find scout_description)/urdf/scout_mini.xacro" />
+  <xacro:include filename="$(find kortex_description)/robots/gen3_robotiq_2f_85.xacro"/>
+  
+  <xacro:gen3_robotiq_2f_85 
+    parent="scout_base_link">
+  </xacro:gen3_robotiq_2f_85>
+    
+
+    
+
+
+</robot>
